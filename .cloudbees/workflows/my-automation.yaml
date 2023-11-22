@@ -17,4 +17,4 @@ jobs:
         with:
           repo-name: simple-go-app
           branch-name: main
-          workflow-name: GitHub Actions Demo
+          workflow-name: github-actions-demo
