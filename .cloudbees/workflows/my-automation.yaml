@@ -12,7 +12,7 @@ jobs:
         name: Say hello2
         shell: sh
         run: |
-          echo "hello world 4"
+          echo "hello world 5"
       - uses: gha-swashbuck1r-run-workflow
         with:
           repo-name: simple-go-app
