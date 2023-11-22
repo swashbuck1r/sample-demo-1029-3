@@ -16,5 +16,6 @@ jobs:
       - uses: gha-swashbuck1r-run-workflow
         with:
           repo-name: simple-go-app
-          branch-name: main
+          branch-name: master
           workflow-name: dispatch-test
+          
