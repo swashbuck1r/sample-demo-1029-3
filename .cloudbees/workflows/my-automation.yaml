@@ -17,5 +17,4 @@ jobs:
         with:
           repo-name: simple-go-app
           branch-name: main
-          workflow-name: github-actions-demo
-          parameters: '{"event_type":"on-demand-test"}'
+          workflow-name: dispatch-test
