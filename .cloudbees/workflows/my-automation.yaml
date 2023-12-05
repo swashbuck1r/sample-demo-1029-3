@@ -18,5 +18,7 @@ jobs:
           repo-name: hello-workflow
           branch-name: main
           workflow-name: hello-workflow
+          parameters: '{"caller_message":"you were invoked by CloudBees"}'
+
 
           
