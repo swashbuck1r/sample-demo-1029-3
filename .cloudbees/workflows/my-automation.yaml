@@ -15,7 +15,7 @@ jobs:
           echo "hello world 5"
       - uses: gha-swashbuck1r-run-workflow
         with:
-          repo-name: hello-repo
+          repo-name: hello-workflow
           branch-name: main
           workflow-name: hello-workflow
 
