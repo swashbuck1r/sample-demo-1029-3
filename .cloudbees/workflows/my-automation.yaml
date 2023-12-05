@@ -13,8 +13,10 @@ jobs:
         shell: sh
         run: |
           echo "hello world 5"
-      - uses: gha-swashbuck1r-run-workflow
+      - uses: cloudbees-io/ghactions-run-workflow@v1
         with:
+          token: ${{ secrets.github_token }}
+          org-name: swasbuck1r
           repo-name: hello-workflow
           branch-name: main
           workflow-name: "hello-workflow"
