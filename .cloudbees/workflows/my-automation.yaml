@@ -16,7 +16,7 @@ jobs:
       - uses: cloudbees-io/ghactions-run-workflow@v1
         with:
           token: ${{ secrets.github_token }}
-          org-name: swasbuck1r
+          org-name: swashbuck1r
           repo-name: hello-workflow
           branch-name: main
           workflow-name: "hello-workflow"
